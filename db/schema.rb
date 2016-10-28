@@ -11,11 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20161025232840) do
-=======
-ActiveRecord::Schema.define(:version => 20161024032759) do
->>>>>>> cf7daa750247748b23cf9017e5556890fce8732a
 
   create_table "users", :force => true do |t|
     t.string   "name"
@@ -27,10 +23,6 @@ ActiveRecord::Schema.define(:version => 20161024032759) do
   end
 
   add_index "users", ["email"], :name => "index_users_on_email"
-<<<<<<< HEAD
   add_index "users", ["remember_token"], :name => "index_users_on_remember_token"
-=======
-  add_index "users", [nil], :name => "index_users_on_remeber_token"
->>>>>>> cf7daa750247748b23cf9017e5556890fce8732a
 
 end
